@@ -11,7 +11,7 @@
 using namespace std;
 int main() {
     // Inicializa las primeras dos variables de la secuencia de Fibonacci
-    int n1 = 3, n2 = 1, other;
+    int n1 = 0, n2 = 1, other;
 
     // Imprime el encabezado para la secuencia de Fibonacci
     cout << "Secuencia de Fibonacci: ";
@@ -20,7 +20,7 @@ int main() {
     cout << n1 << " " << n2 << " ";
 
     // Bucle que itera para generar los siguientes números en la secuencia
-    for (int i = 0; i <= 20; i++)
+    for (int i = 3; i <= 20; i++)
     {
         // Calcula el siguiente número en la secuencia como la suma de los dos anteriores
         other = n1 + n2;
